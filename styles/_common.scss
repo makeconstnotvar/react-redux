@@ -1,0 +1,57 @@
+
+html {
+  font-family: Arial, sans-serif;
+  overflow-y: scroll;
+}
+
+.dashed,
+.undecorate {
+  text-decoration: none;
+
+  &:hover,
+  &:focus,
+  &:active {
+    text-decoration: none;
+  }
+}
+
+.dashed {
+  border-bottom: 1px dashed;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.unselect {
+  user-select: none;
+}
+
+.container {
+  padding: 0 10px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+}
+
+@media only screen and (min-width: 512px) {
+
+}
+
+@media only screen and (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  .container {
+    max-width: 1366px;
+  }
+}
+
+@media only screen and (min-width: 1680px) {
+  .container {
+    max-width: 1680px;
+  }
+}
